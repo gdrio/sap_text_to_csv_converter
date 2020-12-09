@@ -2,4 +2,4 @@
 
 This project allows you to convert text file extractions from SAP to a csv and upload them to Celonis Snap https://www.celonis.com/snap-signup/ and analyse your SAP Process.
 
-Please go to each folder separatley to convert your files.
+Please go to each folder separately to convert the corresponding text file.
