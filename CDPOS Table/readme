@@ -1,0 +1,8 @@
+Step 1: Extract your text file from SAP using the code SE16N. Make sure to extract it as a text file.
+  Required columns: MANDANT,OBJECTCLAS,OBJECTID,CHANGENR,TABNAME,TABKEY,FNAME,CHNGIND,VALUE_NEW,VALUE_OLD
+
+Step 2: Upload here the extracted file and rename it to CDPOS.txt
+
+Step 3: Run the "cdpos_converter" script and follow the instructions
+
+Step 4: Upload the generated file CDPOS_0.csv in your Celonis Snap environment
