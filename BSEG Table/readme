@@ -1,8 +1,8 @@
 Step 1: Extract your text file from SAP using the code SE16N. Make sure to extract as a text file
-  Required columns: MANDANT,OBJECTCLAS,OBJECTID,CHANGENR,TABNAME,TABKEY,FNAME,CHNGIND,VALUE_NEW,VALUE_OLD
+  Required columns: MANDT,BUKRS,BELNR,GJAHR,BUZEI,AUGDT,AUGBL,BSCHL,KOART,UMSKZ,DMBTR,WRBTR,SAKNR,HKONT,KUNNR,LIFNR,ZFBDT,ZTERM,ZBD1T,ZBD2T,ZBD3T,ZBD1P,ZBD2P,SKFBT,SKNTO,WSKTO,MADAT,MANST,WERKS
   
 Step 2: Upload here the extracted file and rename it to BSEG.txt
 
-Step 3: Run the "bseg_converter" script and follow the instructions
+Step 3: Run the "bseg_converter" script. You might need to change few things here.
 
-Step 4: Upload the generated file BSEG_0.csv in your Celonis Snap environment
+Step 4: Upload the generated BSEG_0.csv file and the BSEG_Header in your Celonis Snap environment.
