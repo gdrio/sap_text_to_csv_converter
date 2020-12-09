@@ -1,0 +1,8 @@
+Step 1: Extract your text file from SAP using the code SE16N. Make sure to extract as a text file.
+  Required columns: MANDANT, OBJECTCLAS,BJECTID,CHANGENR,USERNAME,UDATE,UTIME,TCODE
+
+Step 2: Upload here the extracted file and rename it to CDHDR.txt
+
+Step 3: Run the "cdhdr_converter" script and follow the instructions
+
+Step 4: Upload the generated file BSEG_0.csv in your Celonis Snap environment
